@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var myInputDisplayLabel : UILabel!;
+    @IBAction func clickDigit(_ sender: UIButton) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
