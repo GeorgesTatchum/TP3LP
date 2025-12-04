@@ -30,6 +30,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		62CC4E0A2EE199D4000EF750 /* Exceptions for "TP3_M2" folder in "TP3_M2Tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				StackRPN.swift,
+			);
+			target = 62D92EB72EC5E83D000C90F4 /* TP3_M2Tests */;
+		};
 		62D92ECA2EC5E83D000C90F4 /* Exceptions for "TP3_M2" folder in "TP3_M2" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -44,6 +51,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				62D92ECA2EC5E83D000C90F4 /* Exceptions for "TP3_M2" folder in "TP3_M2" target */,
+				62CC4E0A2EE199D4000EF750 /* Exceptions for "TP3_M2" folder in "TP3_M2Tests" target */,
 			);
 			path = TP3_M2;
 			sourceTree = "<group>";

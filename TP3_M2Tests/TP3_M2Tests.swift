@@ -7,11 +7,16 @@
 
 import Testing
 @testable import TP3_M2
+import Foundation
 
 struct TP3_M2Tests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+        
+        let s = StackRPN();
+        
+        s.push(aNumber: NSNumber(value: 36))
     }
 
 }
